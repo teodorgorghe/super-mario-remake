@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{00fc70bd-5279-4493-a191-009f2298dd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{56485f79-b858-4702-8df0-9d493aa46e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{65dc9fa9-065b-4949-bb9d-38839d0be96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\systems">
+      <UniqueIdentifier>{332383e9-c9c4-433e-a9ee-b6d05d684cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\systems">
+      <UniqueIdentifier>{6ef35f42-b7ee-41f2-988d-a25a2de7100a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\scenes">
+      <UniqueIdentifier>{8c733530-8bb7-4ab0-9c9c-7d0937496f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\scenes">
+      <UniqueIdentifier>{3abadb0b-e3fc-4d16-b329-d3937ecdb444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\ecs">
+      <UniqueIdentifier>{c0efdc83-266d-4e64-be23-3b2ee96e989d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\font.ttf">
+      <Filter>assets</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\tileset.png">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\world1-1">
+      <Filter>assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="systems\PlayerSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\RenderSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\ScoreSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\SoundSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\TileSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\AnimationSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\CallbackSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\EditorSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\EnemySystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\FlagSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\MapSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\PhysicsSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\GameScene.cpp">
+      <Filter>Sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\IntroScene.cpp">
+      <Filter>Sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\EditorScene.cpp">
+      <Filter>Sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\ScenePlayer.cpp">
+      <Filter>Sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\MainmenuScene.cpp">
+      <Filter>Sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\MainmenuSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes\ScoreboardScene.cpp">
+      <Filter>Sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="systems\ScoreboardSystem.cpp">
+      <Filter>Sources\systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="systems\ScoreSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\SoundSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\TileSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\AnimationSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\CallbackSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\EditorSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\EnemySystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\FlagSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\MapSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\PhysicsSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\PlayerSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\RenderSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\GameScene.h">
+      <Filter>Headers\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\IntroScene.h">
+      <Filter>Headers\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\Scene.h">
+      <Filter>Headers\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\EditorScene.h">
+      <Filter>Headers\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ecs\ecs.h">
+      <Filter>Headers\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TileType.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\ScenePlayer.h">
+      <Filter>Headers\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\SceneData.h">
+      <Filter>Headers\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\MainmenuScene.h">
+      <Filter>Headers\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\MainmenuSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes\ScoreboardScene.h">
+      <Filter>Headers\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="systems\ScoreboardSystem.h">
+      <Filter>Headers\systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
